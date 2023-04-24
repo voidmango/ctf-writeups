@@ -10,7 +10,7 @@ File: A_New_Hope.pptx
 * Edit the first two bytes to the correct format for a jpeg file. 
 ```bash
 xxd -ps image1.png > image1.dat
-xxd image1.dat
+vim image1.dat
 xxd -r -p image1.dat > image1.jpeg
 ```
 
